@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.5">
+  <diagram name="Page-1" id="je4OQ7eNqe4KdZBJt6W4">
+    <mxGraphModel dx="1861" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8iBxCCOXK72Jy4gfa5Vq-1" value="Student" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="160" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="8iBxCCOXK72Jy4gfa5Vq-7" value="#Student_ID&lt;br&gt;&lt;div&gt;*Achternaam&lt;/div&gt;&lt;div&gt;*Voornaam&lt;/div&gt;&lt;div&gt;o Geboortedatum&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="8iBxCCOXK72Jy4gfa5Vq-1">
+          <mxGeometry y="50" width="160" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="8iBxCCOXK72Jy4gfa5Vq-3" value="Vak" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="40" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8iBxCCOXK72Jy4gfa5Vq-16" value="#vaknr&lt;br&gt;*naam" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="8iBxCCOXK72Jy4gfa5Vq-3">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8iBxCCOXK72Jy4gfa5Vq-5" value="Docent" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="310" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8iBxCCOXK72Jy4gfa5Vq-15" value="# Docent_ID&lt;div&gt;*Voornaam&lt;/div&gt;&lt;div&gt;*Achternaam&lt;/div&gt;&lt;div&gt;o Geboortedatum&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="8iBxCCOXK72Jy4gfa5Vq-5">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8iBxCCOXK72Jy4gfa5Vq-8" value="bvb adres helemaal opsplitsen straatnaam, huisnummer, gemeente" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="190" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8iBxCCOXK72Jy4gfa5Vq-9" value="#identifyer -&amp;gt; 1 specifiek instantie van de identiteit uniek maken,&amp;nbsp;&lt;div&gt;is meestal een cijfer&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;* verplicht&lt;/span&gt;&lt;div&gt;o optioneel&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="210" width="370" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8iBxCCOXK72Jy4gfa5Vq-10" value="Boek" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="310" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8iBxCCOXK72Jy4gfa5Vq-13" value="#iSBN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="358" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8iBxCCOXK72Jy4gfa5Vq-14" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="105" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8iBxCCOXK72Jy4gfa5Vq-17" value="entiteit -&amp;gt; enkelvoud en in drukletters&lt;div style=&quot;&quot;&gt;de entiteit VAK word vakken in de tabellen&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="480" width="250" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
