@@ -25,10 +25,10 @@
         <mxCell id="gSYlSWeEEZi_X8vghnXh-9" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="PRIJS" vertex="1">
           <mxGeometry height="120" width="160" x="70" y="300" as="geometry" />
         </mxCell>
-        <mxCell id="gSYlSWeEEZi_X8vghnXh-16" edge="1" parent="1" source="gSYlSWeEEZi_X8vghnXh-12" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.357;entryDx=0;entryDy=0;entryPerimeter=0;" target="gSYlSWeEEZi_X8vghnXh-4" value="">
+        <mxCell id="gSYlSWeEEZi_X8vghnXh-16" edge="1" parent="1" source="gSYlSWeEEZi_X8vghnXh-12" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="520" y="124.5" as="sourcePoint" />
-            <mxPoint x="650" y="124.5" as="targetPoint" />
+            <mxPoint x="580" y="133" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gSYlSWeEEZi_X8vghnXh-26" edge="1" parent="1" source="gSYlSWeEEZi_X8vghnXh-11" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=1 2;" value="">
@@ -116,6 +116,18 @@
         </mxCell>
         <mxCell id="gSYlSWeEEZi_X8vghnXh-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="een lid MAG in een groep zitten maar een groep MOET verschillende leden hebben" vertex="1">
           <mxGeometry height="30" width="200" x="190" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="gSYlSWeEEZi_X8vghnXh-54" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=1 2;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="134" as="sourcePoint" />
+            <mxPoint x="650" y="133.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gSYlSWeEEZi_X8vghnXh-55" connectable="0" parent="gSYlSWeEEZi_X8vghnXh-54" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" value="1" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSYlSWeEEZi_X8vghnXh-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="een groep MOET een leider hebben maar een leider MAG een groep leiden" vertex="1">
+          <mxGeometry height="30" width="170" x="535" y="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
